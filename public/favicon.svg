@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TrashGrid">
+  <rect width="64" height="64" rx="14" fill="#176B45" />
+  <g stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2">
+    <path d="M0 21.5h64M0 42.5h64M21.5 0v64M42.5 0v64" />
+  </g>
+  <path
+    d="M32 13c-7.6 0-13.7 6.1-13.7 13.6C18.3 37.4 32 51 32 51s13.7-13.6 13.7-24.4C45.7 19.1 39.6 13 32 13z"
+    fill="#FFFFFF"
+  />
+  <circle cx="32" cy="26.6" r="5.6" fill="#176B45" />
+  <path d="M35 22.9c.3 4.1-2.3 6.8-6.3 7.2-.3-4.1 2.3-6.8 6.3-7.2z" fill="#FFFFFF" />
+</svg>

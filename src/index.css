@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-forest: #176b45;
+  --color-forest-dark: #0f4c31;
+  --color-forest-soft: #e8f2ec;
+  --color-ink: #17231d;
+  --color-muted: #5b6b62;
+  --color-canvas: #f7f9f7;
+  --color-line: #e3e9e4;
+  --color-hot-high: #dc2626;
+  --color-hot-medium: #ea580c;
+  --color-hot-low: #eab308;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family:
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-forest);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+/* Leaflet tweaks so the map fits the card design */
+.leaflet-container {
+  background-color: #e9efe9;
+  font-family: inherit;
+  z-index: 0;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.leaflet-control-zoom a {
+  color: var(--color-ink);
+}
+
+.tg-map-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
